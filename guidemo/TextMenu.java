@@ -132,14 +132,17 @@ public class TextMenu extends JMenu {
 	    });
 		
 		
-		
-		
 		//Center Justification
 		JRadioButtonMenuItem centerJustifyItem = new JRadioButtonMenuItem("Center");
 		justifyButtonGroup.add(centerJustifyItem);
 		justifyMenu.add(centerJustifyItem);
 		
+		//Aligning to the center action listener
 		
+		centerJustifyItem.addActionListener(e -> {
+			panel.getTextItem().setJustify(TextItem.CENTER);
+			panel.repaint();
+		});
 		
 		
 		return justifyMenu;
