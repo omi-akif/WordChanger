@@ -46,10 +46,9 @@ public class GuiDemo extends JFrame{
 		
 		drawPanel = new DrawPanel();
 		drawPanel.getTextItem().setText(
-				"Big bugs have little bugs\n" +
-				"      Upon their backs to bite 'em,\n" +
-				"And little bugs have littler bugs,\n" +
-				"      And so it goes, ad infinitum."
+				"Morning!\n" +
+				"      Nice day for fishing ain't it',\n" +
+				" he ha \n"
 			);
 		drawPanel.getTextItem().setFontSize(36);
 		drawPanel.getTextItem().setJustify(TextItem.LEFT);
